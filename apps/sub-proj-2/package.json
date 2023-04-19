@@ -4,6 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build": "esbuild --bundle --outdir=dist --format=cjs --target=node18 --platform=node src/index.ts",
+    "start": "npm run build && node ./dist/index.js",
+    "dev": "echo \"Implement watch mode\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -4,6 +4,12 @@
   "description": "This is an example project demonstrating the setup of a basic monorepo for multiple TypeScript projects, with shared common modules.",
   "main": "index.js",
   "scripts": {
+    "start:next-proj": "npm run -w apps/next-proj start",
+    "start:sub-proj-1": "npm run -w apps/sub-proj-1 start",
+    "start:sub-proj-2": "npm run -w apps/sub-proj-2 start",
+    "dev:next-proj": "npm run -w apps/next-proj dev",
+    "dev:sub-proj-1": "npm run -w apps/sub-proj-1 dev",
+    "dev:sub-proj-2": "npm run -w apps/sub-proj-2 dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,7 +17,8 @@
   "workspaces": [
     "apps/sub-proj-1",
     "apps/sub-proj-2",
-    "packages/common"
+    "packages/common",
+    "apps/next-proj"
   ],
   "devDependencies": {
     "@tsconfig/esm": "^1.0.2",
