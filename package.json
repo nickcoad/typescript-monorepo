@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "sub-proj-1",
-    "sub-proj-2",
-    "common"
+    "apps/sub-proj-1",
+    "apps/sub-proj-2",
+    "packages/common"
   ],
   "devDependencies": {
     "@tsconfig/esm": "^1.0.2",
