@@ -1,0 +1,21 @@
+{
+  "name": "test-typescript-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "sub-proj-1",
+    "sub-proj-2",
+    "common"
+  ],
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.2",
+    "@tsconfig/node18": "^2.0.0",
+    "@tsconfig/strictest": "^2.0.0"
+  }
+}
