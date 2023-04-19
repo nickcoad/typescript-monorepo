@@ -1,7 +1,6 @@
 {
-  "name": "sub-proj-2",
+  "name": "@my-monorepo/sub-proj-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "esbuild --bundle --outdir=dist --format=cjs --target=node18 --platform=node src/index.ts",
@@ -12,5 +11,7 @@
   "devDependencies": {
     "@types/node": "^18.15.11",
     "esbuild": "^0.17.17"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

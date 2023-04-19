@@ -1,7 +1,7 @@
 {
-  "name": "test-typescript-monorepo",
+  "name": "@my-monorepo/test-typescript-monorepo",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an example project demonstrating the setup of a basic monorepo for multiple TypeScript projects, with shared common modules.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,9 @@
     "@tsconfig/esm": "^1.0.2",
     "@tsconfig/node18": "^2.0.0",
     "@tsconfig/strictest": "^2.0.0"
-  }
+  },
+  "dependencies": {
+    "esbuild": "^0.17.17"
+  },
+  "keywords": []
 }
